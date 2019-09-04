@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align-last: center;
+    font-family: sans-serif;
+    text-shadow: 5px black;
+    margin-top: 35px;
+}
+
+.add-contact-container {
+    margin: 40px;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+/*
+.table-container {
+    display: inline-block;
+}
+*/
+
+thead {
+    background-color: darkgrey;
+    width: 100%;
+}
+
+th,td {
+    border: 20px;
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+tbody tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.delete-button {
+    padding: 5px;
+}
+
+/*
+#clearContactsBtn {
+    position: absolute;
+    right: 0px;
+}
+*/

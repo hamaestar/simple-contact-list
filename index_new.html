@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link type="text/css" rel="stylesheet" href="style_new.css">
+    
+
+</head>
+
+
+<body>
+
+    <h1>Gerenciador de Contatos</h1>
+
+    <div class="add-contact-container">
+
+        <label for="newName">Nome:</label>
+        <input type="text" id="newName">
+        
+        <label for="newPhone">Telefone:</label>
+        <input type="text" id="newPhone">
+        
+        <label for="newAddress">Endereço:</label>
+        <input type="text" id="newAddress">
+
+        <button id="newContactBtn">Adicionar</button>
+
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Endereço</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <div id="tableContainer">
+                <tbody class="table-body" id="tableBody"></tbody>
+            </div>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button id="clearContactsBtn">Limpar Contatos</button></td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+    </div>
+
+    
+
+    <script src="script_new.js"></script>
+
+</body>
